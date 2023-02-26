@@ -50,18 +50,17 @@ using namespace std;
 int main()
 {
    int n = 5,k= 0;
-    for (int i = 1 ; i<n ; i++,k=0)
+    for (int i = 1 ; i<=n ; i++)
     {
        for(int j = 1 ; j<=n-i ; j++)
        {
           cout<<" ";
        }
-          while(k != 2*i-1){
+          while(k=1;k<=2*i-1;k++){
              cout<<"*";
-             ++k;
           }
        
-       cout<<" "<<endl;
+       cout<<endl;
     }
     return 0;
 }
@@ -91,6 +90,26 @@ int main()
     }
     return 0;
 }
+//you can use this code also.
+#include<iostream>
+using namespace std;
+int main()
+{
+    n=10;
+    for(i=n;i<=1;i++)
+    {
+        for(j=1;j<=n-i;j++)
+            cout<<" ";
+    }
+    for(k=1;k<=2*i-1;k++)
+    {
+        cout<<"*";
+    }
+    cout<<endl;
+    
+    return 0;
+}
+
 
 *******
  *****
