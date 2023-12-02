@@ -115,3 +115,74 @@ int main()
  *****
   ***
    *
+
+******************************REVISION**************************
+int n=5;
+    for (int k = 1; k <= n; k++)
+  {
+    for (int c = 1; c <= n-k; c++)
+      printf(" ");
+
+    for (int c = 1; c <= k; c++)
+      printf("*");
+
+    printf("\n");
+  }
+   for (int k = 1; k <= n-1; k++)
+  {
+    for (int c = 1; c <= k; c++)
+      printf(" ");
+
+    for (int c = 1; c <= n-k; c++)
+      printf("*");
+
+    printf("\n");
+  }
+     
+  //////////   
+ int n=5;
+    for (int k = 1; k <= n; k++)
+  {
+    for (int c = 1; c <= n-k; c++)
+      printf(" ");
+
+    for (int c = 1; c <= 2*k-1; c++)
+      printf("*");
+
+    printf("\n");
+  }
+     
+      for (int k = 1; k <= n-1; k++)
+  {
+    for (int c = 1; c <= k; c++)
+      printf(" ");
+
+    for (int c = 1; c <= 2*(n-k)-1; c++)
+      printf("*");
+
+    printf("\n");
+  }
+
+//////
+   for(int i =0;i<6;i++){
+      for(int j = 6;j>i;j--){
+      printf("*");
+   }
+   printf("\n");
+   
+   }
+
+   ///////
+   int a[10],n=6;
+    printf("Hello World");
+    for(int i = 0;i<n;i++)
+    {
+       scanf("%d",&a[i]);
+    }
+    for(int i = n-1; i>=0;i-- ){
+       printf("%d",a[i]);
+    }
+
+    return 0;
+*/
+
